@@ -1,0 +1,15 @@
+p
+{
+	color:#ff99AA;
+	border-color: green;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10%;
+}
+body
+{
+	background-image:url(Images/Internship2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Border in CSS</title>
+	<style type="text/css">
+		h1
+		{
+			border-width: 2px 4px 6px 8px;
+			border-color: red blue green yellow;
+			border-style: solid solid solid solid;
+			border-radius: 10px;
+			padding: 10px;
+			margin: 40px;
+
+		}
+		#mydiv
+		{
+			height: 400px;
+			width: 400px;
+			border-width: 5px;
+			border-color: blue;
+			border-style: ridge;
+		}
+		#mydiv1
+		{
+			height: 300px;
+			width: 300px;
+			border-width: 5px;
+			border-left-color: red;
+			border-right-color: black;
+			border-top-color: orange;
+			border-bottom-color: green;
+			border-style: solid;
+			border-radius: 30px;
+		}
+		#style1
+		{
+			border-style:outset;
+			/*border-style: inset;*/
+			
+		}
+		#style2
+		{
+			
+			border-style: solid dashed none dotted;
+			border-width: 5px 5px 2px 7px;
+			border-color: red yellow blue green;
+
+			/*border-top-style: solid;
+			border-top-width: 10px;
+			border-top-color: green;*/
+			
+		}
+
+	</style>
+</head>
+<body>
+<h1>Welcome to Border Property</h1><br>
+
+<div id="mydiv">
+	
+</div><br>
+
+<div id="mydiv1">
+	
+</div>
+<p id="style1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. </p><br>
+
+<p id="style2">Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat</p>. 
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+p
+{
+	color: rgb(0, 0, 0);
+}
+strong
+{
+	color: rgb(255, 255, 255);
+}
+h1
+{
+	color: rgb(0, 255, 120);
+}
+h3
+{
+	color: rgba(0, 255, 120, 0.5);
+}
+h4{
+	color:hsl(0,100%,50%);
+}
+h5
+{
+	color:hsla(0,100%,50%,0.8%);
+}
